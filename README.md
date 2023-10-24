@@ -8,7 +8,7 @@ If you already have a Batch File in your Script/Program go [here](##2)
 
 ## 1 
 The start.bat File has to be in the Same Folder as your Script/Program
-Paste start.bat in your Script Folder
+Paste the start.bat File in your Script Folder
 Then change the 3 Texts in the 6,7,8 Line and The 3 Last lines. Then its ready.
 
 
