@@ -1,23 +1,11 @@
-# BatchGitUpdater
-Keep any Script up to date.
-If you start your script it checks if there are newer Versions in a Github Repo and if so it downloads the Update. You can implement this very easy in your script. Windows OS is requiered
+:: Use only under MIT License
+:: If you want to Publish a modified Version please mention the Original Creator PIRANY and link the GitHub Repo
 
-# How to Use
-If you dont have a Batch File in your Script/Program That executes at the Begining go [here](##1)
-If you already have a Batch File in your Script/Program go [here](##2)
-
-## 1 
-The start.bat File has to be in the Same Folder as your Script/Program
-Paste start.bat in your Script Folder
-Then change the 3 Texts in the 6,7,8 Line and The 3 Last lines. Then its ready.
-
-
-## 2 
-The start.bat File has to be in the Same Folder as your Script/Program
-Implement this in your Script. You only need to Modify the gitver,owner and repo Variable and the content at the Bottom. Then it works.
-
-```
-set "gitver=--The Version of your Script--"
+@echo off
+@title (Your Title)
+set "gitver=The Version of your Script"
+set "owner=The Name of Your GitHub Account"
+set "repo=Your GitHub Repo Name"
 cd %~dp0
 color 2
 
@@ -167,8 +155,6 @@ goto updtsearch
 
 
 :updtsearch
-set "owner=--The Name of Your GitHub Account"
-set "repo=Your GitHub Repo Name"
 set "api_url=https://api.github.com/repos/%owner%/%repo%/releases/latest"
 echo Fetching Git Url....
 @ping -n 1 localhost> nul
@@ -216,7 +202,12 @@ goto gitverout
 cd ..
 mkdir %latest_version%
 cd %latest_version%
+set "owner=--The Name of Your GitHub Account"
+set "repo=Your GitHub Repo Name"
 git clone https://github.com/%owner%/%repo% %cd%
 echo Downloaded
 Paste the Name Of the File you Want to open after the script update has been downloaded+the ending here 
-```
+
+
+:openscript
+Paste the Name of the File you want to open this File is done
