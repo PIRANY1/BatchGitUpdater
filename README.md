@@ -3,14 +3,14 @@ Keep any script up to date.
 If you start your script, it checks if there are newer versions in a GitHub repository, and if so, it downloads the update. You can implement this very easily in your script. Windows OS is required.
 
 ## How to Use
-If you don't have a batch file in your script/program that executes at the beginning, go [here](##1).
-If you already have a batch file in your script/program, go [here](##2).
+If you don't have a batch file in your script/program that executes at the beginning, go [here](##NewFile).
+If you already have a batch file in your script/program, go [here](##Implement).
 
-## 1 
+## NewFile 
 The 'start.bat' file has to be in the same folder as your script or program. Paste the 'start.bat' file into your script folder, then change the text in lines 6, 7, 8, and the last 3 lines. After that, it's ready.
 
 
-## 2 
+## Implement
 The 'start.bat' file has to be in the same folder as your script or program. Implement this in your script. You only need to modify the 'gitver,' 'owner,' and 'repo' variables, as well as the content at the bottom. Then it will work.
 ```
 set "gitver=--The Version of your Script--"
