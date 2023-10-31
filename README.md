@@ -8,10 +8,11 @@ If you already have a batch file in your script/program, go [here](##Implement).
 
 ## NewFile 
 The 'start.bat' file has to be in the same folder as your script or program. Paste the 'start.bat' file into your script folder, then change the text in lines 6, 7, 8, and the last 3 lines. After that, it's ready.
-
+Please mention a link to the github repo in your code 
 
 ## Implement
 The 'start.bat' file has to be in the same folder as your script or program. Implement this in your script. You only need to modify the 'gitver,' 'owner,' and 'repo' variables, as well as the content at the bottom. Then it will work.
+Please mention a link to the github repo in your code 
 ```
 set "gitver=--The Version of your Script--"
 cd %~dp0
