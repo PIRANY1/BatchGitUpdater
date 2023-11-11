@@ -3,7 +3,7 @@ Keep any script up to date.
 If you start your script, it checks if there are newer versions in a GitHub repository, and if so, it downloads the update. You can implement this very easily in your script. Windows OS is required.
 
 ## How to Use
-If you don't have a batch file in your script/program that executes at the beginning, go [here]([##NewFile](https://github.com/PIRANY1/BatchGitUpdater#newfile)).
+If you don't have a batch file in your script/program that executes at the beginning, go [here](https://github.com/PIRANY1/BatchGitUpdater#newfile).
 If you already have a batch file in your script/program, go [here](https://github.com/PIRANY1/BatchGitUpdater#implement).
 
 ## NewFile 
