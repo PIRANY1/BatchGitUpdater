@@ -1,4 +1,7 @@
 # BatchGitUpdater
+
+Development will not be continued.
+
 Keep any script up to date.
 If you start your script, it checks if there are newer versions in a GitHub repository, and if so, it downloads the update. You can implement this very easily in your script. Windows OS is required.
 
